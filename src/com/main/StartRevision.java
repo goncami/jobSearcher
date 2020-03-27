@@ -135,6 +135,7 @@ public class StartRevision {
       if (osName.startsWith("Win")) {
         Process process = Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + strUrl);
       } else if (osName.startsWith("Mac")) {
+    	  //TODO: revisar causa no funciona en mac.
 //    	  Runtime.getRuntime().exec("open " + strUrl);
     	  ProcessBuilder pb = new ProcessBuilder("open", strUrl);
     	  Process p = pb.start();
