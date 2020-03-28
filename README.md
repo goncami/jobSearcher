@@ -1,7 +1,15 @@
 # jobSearcher
 
-_Aplicación Java de escritorio para facilitar la búsqueda de empleo en plataformas online.
-Tras configurar las url de los servicios de linkedin e infojobs en el fichero config.properties, y meter en el fichero listado.csv el listado de palabras clave para abrir una pestaña en el navegador web por cada palabra clave del listado.csv introducidas_
+_Aplicación Java de escritorio para facilitar la búsqueda de empleo en plataformas online._
+
+_1.-Configurar las url de los servicios de linkedin e infojobs en el fichero config.properties._
+
+_2.-Introducir palabras clave de búsqueda (un criterio de búsqueda por cada fila) en el fichero listado.csv. Por ejemplo: dependiente, grandes almacenes, comercio._
+
+_3.-Tendrás que estar logueado previamente con tu perfil de dichas plataformas (Linkedin e Infojobs) en tu navegador web por defecto en el sistema operativo._
+
+_4.-Ejecutar para que se abran las pestañas con los resultados de búsqueda en el navegador._
+
 
 ## Comenzando 🚀
 
